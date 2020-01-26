@@ -1,2 +1,5 @@
-const mongoose = require("mongose");
-mongoose.co
+require('./models/db');
+const express = require('express');
+
+//Innitialising the application
+const app = express();
